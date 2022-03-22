@@ -14,7 +14,7 @@ export class AddCategoryIdToTransactios1647875212762
       new TableColumn({
         name: 'category_id',
         type: 'uuid',
-        isNullable: false,
+        isNullable: true,
       }),
     ),
       await queryRunner.createForeignKey(
